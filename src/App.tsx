@@ -3,6 +3,8 @@ import { HashRouter as Router, Navigate, Route, Routes } from "react-router-dom"
 import './App.css';
 import Layout from "./layout/Layout.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
+import ProjectPage from "./pages/ProjectPage.tsx";
+import ResumePage from "./pages/ResumePage.tsx";
 
 function App() {
     return (
@@ -14,6 +16,8 @@ function App() {
                     {/* Nested routes will render inside the <Outlet /> of Layout */}
                     <Route path="home" element={<HomePage />} /> {/* Default home page */}
                     {/* <Route path="projects" element={<ProjectsPage />} /> */}
+                    <Route path="resume" element={<ResumePage />} />
+                    <Route path="projects" element={<ProjectPage />} />
                     <Route path="contact" element={<ContactPage />} />
                 </Route>
             </Routes>
