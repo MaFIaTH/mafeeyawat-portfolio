@@ -1,5 +1,5 @@
 import HomePage from "./pages/HomePage.tsx";
-import {BrowserRouter as Router, Navigate, Route, Routes} from "react-router-dom";
+import { HashRouter as Router, Navigate, Route, Routes } from "react-router-dom"; // Changed to HashRouter
 import './App.css';
 import Layout from "./layout/Layout.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
