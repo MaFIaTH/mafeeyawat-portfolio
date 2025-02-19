@@ -28,7 +28,7 @@ function ResumePage() {
                         onClick={toggleImageVisibility}>
                         {isImageVisible ? "Hide Resume Image" : "Show Resume Image"}
                     </button>
-                    <div className={"w-1/2 mx-auto"}>
+                    <div className={"min-w-7/16 max-w-7/16 max-sm:min-w-2/3 mx-auto"}>
                         <TransformWrapper>
                             <TransformComponent>
                                 <img
@@ -48,7 +48,7 @@ function ResumePage() {
 
 function CanvaResume(){
     return (
-        <div className={"min-w-2xl"}>
+        <div className={"min-w-2xlv max-w-screen"}>
             <div
                 style={{
                     position: "relative",
