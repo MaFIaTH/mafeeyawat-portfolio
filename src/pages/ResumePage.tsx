@@ -14,7 +14,7 @@ function ResumePage() {
     };
 
     return (
-        <main className="min-h-screen min-w-screen">
+        <main className="bg-[#141414] bg-cover min-h-screen min-w-screen">
             <div className="flex flex-col py-20 justify-center items-center">
                 <h1 className={"text-4xl font-bold text-white italic"}>Resume</h1>
                 <Divider />
@@ -48,7 +48,7 @@ function ResumePage() {
 
 function CanvaResume(){
     return (
-        <div className={"min-w-2xlv max-w-screen"}>
+        <div className={"min-w-1/2"}>
             <div
                 style={{
                     position: "relative",

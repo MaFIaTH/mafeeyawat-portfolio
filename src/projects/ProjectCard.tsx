@@ -19,7 +19,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="border-2 p-5 grid lg:grid-cols-2 max-lg:grid-rows-2 gap-x-10 gap-y-10 rounded-2xl
         justify-center items-center text-left hover:scale-110 hover:border-amber-200
         transition-all duration-300 ease-in-out group">
-            <img src={image} className="aspect-16/9 rounded-xl" alt={`${projectName} Icon`} />
+            <div className="row-span-full">
+                <img src={image} className="aspect-16/9 rounded-xl w-full" alt={`${projectName} Icon`} />
+            </div>
             <div className="">
                 <h2 className="pb-5 font-bold italic text-6xl max-sm:text-4xl">{projectName}</h2>
                 <p>{description}</p>

@@ -1,5 +1,5 @@
 ﻿function Divider() {
-  return <div className={"my-6 h-0.5 w-full bg-neutral-100 dark:bg-white/10"}/>;
+  return <div className={"my-6 h-0.5 min-w-screen bg-neutral-100 dark:bg-white/10"}/>;
 }
 
 function CopyToClipboard(copyText: string) {
